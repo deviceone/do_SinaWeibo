@@ -45,7 +45,7 @@
 		3B9F3B8C1AE4FD07004124DA /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
 		3B9F3B8D1AE4FD07004124DA /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
 		3B9F3B8E1AE4FD07004124DA /* WeiboUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboUser.h; sourceTree = "<group>"; };
-		A4E1EABD1A778F1700F0B3CE /* libDoExt_SM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoExt_SM.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E1EABD1A778F1700F0B3CE /* libDoSinaBo_SM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoSinaBo_SM.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E1EADC1A778F8200F0B3CE /* TYPEID_SM.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TYPEID_SM.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +112,7 @@
 		A4E1EABE1A778F1700F0B3CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4E1EABD1A778F1700F0B3CE /* libDoExt_SM.a */,
+				A4E1EABD1A778F1700F0B3CE /* libDoSinaBo_SM.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A4E1EABC1A778F1700F0B3CE /* DoExt_SM */ = {
+		A4E1EABC1A778F1700F0B3CE /* DoSinaBo_SM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4E1EAD11A778F1700F0B3CE /* Build configuration list for PBXNativeTarget "DoExt_SM" */;
+			buildConfigurationList = A4E1EAD11A778F1700F0B3CE /* Build configuration list for PBXNativeTarget "DoSinaBo_SM" */;
 			buildPhases = (
 				A4E1EAB91A778F1700F0B3CE /* Sources */,
 				A4E1EABA1A778F1700F0B3CE /* Frameworks */,
@@ -132,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = DoExt_SM;
+			name = DoSinaBo_SM;
 			productName = DoExt_SM;
-			productReference = A4E1EABD1A778F1700F0B3CE /* libDoExt_SM.a */;
+			productReference = A4E1EABD1A778F1700F0B3CE /* libDoSinaBo_SM.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A4E1EAB81A778F1700F0B3CE /* Build configuration list for PBXProject "DoExt_SM" */;
+			buildConfigurationList = A4E1EAB81A778F1700F0B3CE /* Build configuration list for PBXProject "DoSinaBo_SM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +163,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A4E1EABC1A778F1700F0B3CE /* DoExt_SM */,
+				A4E1EABC1A778F1700F0B3CE /* DoSinaBo_SM */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoSinaBo_SM;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = ../doLib/doCore/Header;
@@ -284,7 +284,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DoSinaBo_SM;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = ../doLib/doCore/Header;
@@ -294,7 +294,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A4E1EAB81A778F1700F0B3CE /* Build configuration list for PBXProject "DoExt_SM" */ = {
+		A4E1EAB81A778F1700F0B3CE /* Build configuration list for PBXProject "DoSinaBo_SM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4E1EACF1A778F1700F0B3CE /* Debug */,
@@ -303,7 +303,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4E1EAD11A778F1700F0B3CE /* Build configuration list for PBXNativeTarget "DoExt_SM" */ = {
+		A4E1EAD11A778F1700F0B3CE /* Build configuration list for PBXNativeTarget "DoSinaBo_SM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A4E1EAD21A778F1700F0B3CE /* Debug */,
