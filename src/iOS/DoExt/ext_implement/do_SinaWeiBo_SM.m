@@ -15,7 +15,7 @@
 #import "doScriptEngineHelper.h"
 #import "doIScriptEngine.h"
 #import "doInvokeResult.h"
-#import "doJsonNode.h"
+#import "doJsonHelper.h"
 #import "WeiboSDK.h"
 
 
@@ -59,13 +59,13 @@
 //异步
 - (void)getUserInfo:(NSArray *)parms
 {
-    doJsonNode *_dictParas = [parms objectAtIndex:0];
+    NSDictionary *_dictParas = [parms objectAtIndex:0];
     self.scritEngine = [parms objectAtIndex:1];
     //自己的代码实现
     
     self.callbackName = [parms objectAtIndex:2];
-    NSString *uid = [_dictParas GetOneText:@"uid" :@""];
-    self.accesstoken = [_dictParas GetOneText:@"accessToken" :@""];
+    NSString *uid = [doJsonHelper GetOneText:_dictParas :@"uid" :@""];
+    self.accesstoken = [doJsonHelper GetOneText:_dictParas :@"accessToken" :@""];
     NSMutableDictionary *paramDict = [NSMutableDictionary dictionary];
     [paramDict setValue:uid forKey:@"uid"];
     [paramDict setValue:self.accesstoken forKey:@"accessToken"];
